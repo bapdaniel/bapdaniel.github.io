@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Daniel Baptista — Estudante de ADS, desenvolvedor de aplicações Android, web e Python com testes e documentação. Busca estágio em tecnologia em Palmas, TO.">
+  <meta name="author" content="Daniel Baptista">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Daniel Baptista — Portfólio">
+  <meta property="og:description" content="Estudante de ADS desenvolvendo projetos testáveis em Android, Python e web. Projeto principal: SOL+, aplicativo Android offline com 38 testes automatizados.">
+  <meta property="og:url" content="https://bapdaniel.github.io">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Daniel Baptista — Portfólio">
+  <meta name="twitter:description" content="Estudante de ADS, primeiro semestre. Projetos Android, Python e web com testes e documentação.">
+
+  <link rel="canonical" href="https://bapdaniel.github.io">
+  <meta name="theme-color" content="#0F766E">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="alternate icon" href="assets/images/favicon.ico">
+
+  <title>Daniel Baptista — Portfólio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Skip to content (acessibilidade) -->
+  <a href="#main" class="skip-link">Ir para o conteúdo principal</a>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#inicio" class="nav-brand" aria-label="Início — Daniel Baptista">
+        <span aria-hidden="true">DB</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+        aria-label="Abrir menu de navegação"
+      >
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <ul id="nav-menu" class="nav-menu" role="list">
+        <li><a href="#solplus"    class="nav-link">SOL+</a></li>
+        <li><a href="#laboratorio" class="nav-link">Laboratório</a></li>
+        <li><a href="#sobre"      class="nav-link">Sobre</a></li>
+        <li><a href="#contato"    class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main">
+
+    <!-- ——————————————————— HERO ——————————————————— -->
+    <section id="inicio" class="hero section" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-eyebrow">
+            Estudante de ADS &middot; Palmas, TO &middot; Disponível para estágio
+          </p>
+          <h1 id="hero-heading">Daniel Baptista</h1>
+          <p class="hero-sub">
+            Primeiro semestre de Análise e Desenvolvimento de Sistemas,
+            desenvolvendo aplicações Android, web e Python com
+            testes e documentação.
+          </p>
+          <div class="hero-actions">
+            <a href="#solplus" class="btn btn-primary">Ver projetos</a>
+            <a
+              href="https://github.com/bapdaniel"
+              class="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-aside" aria-hidden="true">
+          <div class="hero-card">
+            <div class="hero-stat">
+              <span class="hero-stat-num">4</span>
+              <span class="hero-stat-label">projetos públicos</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">38</span>
+              <span class="hero-stat-label">testes automatizados (SOL+)</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">4</span>
+              <span class="hero-stat-label">linguagens praticadas</span>
+            </div>
+            <div class="hero-badge">
+              <img
+                src="https://github.com/bapdaniel/solplus-android/actions/workflows/android.yml/badge.svg?branch=main"
+                alt="Status do Android CI do SOL+"
+                loading="lazy"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ——————————————————— SOL+ ——————————————————— -->
+    <section id="solplus" class="section section-alt" aria-labelledby="solplus-heading">
+      <div class="container">
+
+        <!-- Cabeçalho da seção -->
+        <div class="section-header">
+          <div>
+            <span class="project-label">Projeto principal</span>
+            <h2 id="solplus-heading">SOL+</h2>
+            <p class="project-tagline">
+              Aplicativo Android nativo e offline para organizar lembretes
+              e registrar uma rotina de cuidados com medicamentos.
+            </p>
+          </div>
+          <div class="project-links-header">
+            <a
+              href="https://github.com/bapdaniel/solplus-android"
+              class="btn btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Código-fonte</a>
+            <a
+              href="https://github.com/bapdaniel/solplus-android/tree/main/docs"
+              class="btn btn-sm btn-outline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Documentação</a>
+          </div>
+        </div>
+
+        <!-- Screenshots -->
+        <div class="screenshots-grid" role="list" aria-label="Capturas de tela do SOL+">
+          <figure class="screenshot-item" role="listitem">
+            <img
+              src="https://raw.githubusercontent.com/bapdaniel/solplus-android/main/docs/screenshots/home.png"
+              alt="Tela inicial do SOL+ mostrando os três lembretes diários"
+              loading="lazy"
+            >
+            <figcaption>Tela inicial</figcaption>
+          </figure>
+          <figure class="screenshot-item" role="listitem">
+            <img
+              src="https://raw.githubusercontent.com/bapdaniel/solplus-android/main/docs/screenshots/morning-reminder.png"
+              alt="Diálogo de lembrete da manhã com opções de confirmar, adiar ou registrar incerteza"
+              loading="lazy"
+            >
+            <figcaption>Lembrete da manhã</figcaption>
+          </figure>
+          <figure class="screenshot-item" role="listitem">
+            <img
+              src="https://raw.githubusercontent.com/bapdaniel/solplus-android/main/docs/screenshots/calendar.png"
+              alt="Visualização do calendário de registros do SOL+"
+              loading="lazy"
+            >
+            <figcaption>Calendário</figcaption>
+          </figure>
+          <figure class="screenshot-item" role="listitem">
+            <img
+              src="https://raw.githubusercontent.com/bapdaniel/solplus-android/main/docs/screenshots/history.png"
+              alt="Histórico de registros e correções do SOL+"
+              loading="lazy"
+            >
+            <figcaption>Histórico</figcaption>
+          </figure>
+        </div>
+        <p class="screenshots-note">
+          Imagens geradas em emulador com dados de demonstração.
+          Dados reais, backups e bancos não fazem parte do repositório.
+        </p>
+
+        <!-- Detalhes do projeto -->
+        <div class="project-detail-grid">
+
+          <!-- Problema -->
+          <article class="detail-card" aria-labelledby="solplus-problem">
+            <h3 id="solplus-problem">Problema</h3>
+            <p>
+              Organizar a rotina de cuidados com medicamentos de forma confiável,
+              offline e sem depender de conta em nuvem. O aplicativo precisava
+              funcionar em dispositivos simples, respeitar a privacidade e
+              manter um histórico que permitisse corrigir registros equivocados.
+            </p>
+          </article>
+
+          <!-- Solução -->
+          <article class="detail-card" aria-labelledby="solplus-solution">
+            <h3 id="solplus-solution">Solução</h3>
+            <p>
+              Aplicativo Android nativo com três lembretes diários configuráveis,
+              confirmações independentes por cuidado, opções de confirmar, adiar,
+              registrar incerteza e corrigir o histórico, além de calendário
+              e trilha de correções.
+            </p>
+            <ul class="detail-list">
+              <li>Armazenamento 100% local — sem conta, sem API remota</li>
+              <li>Notificações locais com reagendamento após reinicialização</li>
+              <li>Tela de diagnóstico para permissões e restrições de bateria</li>
+            </ul>
+          </article>
+
+          <!-- Tecnologias -->
+          <article class="detail-card" aria-labelledby="solplus-tech">
+            <h3 id="solplus-tech">Tecnologias</h3>
+            <ul class="tags-list" role="list">
+              <li class="tag">Kotlin 2.0</li>
+              <li class="tag">Jetpack Compose</li>
+              <li class="tag">Material 3</li>
+              <li class="tag">Room</li>
+              <li class="tag">DataStore</li>
+              <li class="tag">AlarmManager</li>
+              <li class="tag">Coroutines / Flow</li>
+              <li class="tag">JUnit 4</li>
+              <li class="tag">Espresso</li>
+              <li class="tag">Compose UI Test</li>
+              <li class="tag">GitHub Actions</li>
+            </ul>
+          </article>
+
+          <!-- Decisões técnicas -->
+          <article class="detail-card" aria-labelledby="solplus-decisions">
+            <h3 id="solplus-decisions">Principais decisões</h3>
+            <ul class="detail-list">
+              <li><strong>Arquitetura próxima de MVVM</strong> com ViewModels, coroutines e Flow — separação de responsabilidades mesmo em módulo único</li>
+              <li><strong>Room + DataStore</strong> para persistência e preferências — sem sincronização externa</li>
+              <li><strong>AlarmManager</strong> para notificações locais — com lógica de reagendamento após reinicialização</li>
+              <li><strong>Restauração de backup desativada</strong> na interface por segurança, evitando dados de outros dispositivos</li>
+            </ul>
+          </article>
+
+          <!-- Testes e CI -->
+          <article class="detail-card" aria-labelledby="solplus-tests">
+            <h3 id="solplus-tests">Testes e automação</h3>
+            <div class="test-counts">
+              <div class="test-count-item">
+                <span class="test-count-num">28</span>
+                <span class="test-count-label">testes JVM</span>
+              </div>
+              <div class="test-count-sep" aria-hidden="true">+</div>
+              <div class="test-count-item">
+                <span class="test-count-num">10</span>
+                <span class="test-count-label">testes instrumentados</span>
+              </div>
+            </div>
+            <p>
+              Testes, lint e build automatizados com GitHub Actions
+              a cada push na branch <code>main</code>.
+              Verificação reproduzida documentada em
+              <a
+                href="https://github.com/bapdaniel/solplus-android/blob/main/docs/TESTING.md"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><code>docs/TESTING.md</code></a>.
+            </p>
+            <div class="ci-badge">
+              <a
+                href="https://github.com/bapdaniel/solplus-android/actions/workflows/android.yml"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver status do Android CI no GitHub Actions"
+              >
+                <img
+                  src="https://github.com/bapdaniel/solplus-android/actions/workflows/android.yml/badge.svg?branch=main"
+                  alt="Status do Android CI"
+                  loading="lazy"
+                >
+              </a>
+            </div>
+          </article>
+
+          <!-- Limitações conhecidas -->
+          <article class="detail-card detail-card-warning" aria-labelledby="solplus-limits">
+            <h3 id="solplus-limits">Limitações conhecidas</h3>
+            <ul class="detail-list">
+              <li>Rotina e textos desenhados para um caso de uso específico, não prescrições gerais</li>
+              <li>Sem sincronização em nuvem nem recuperação automática após desinstalação</li>
+              <li>Variante <em>release</em> ainda sem assinatura de distribuição</li>
+              <li>Políticas de bateria de fabricantes podem atrasar notificações</li>
+              <li>Acessibilidade com TalkBack e escala máxima de fonte ainda pendente de validação em dispositivo físico</li>
+              <li><strong>Projeto educacional:</strong> não substitui orientação médica, cuidador ou dispositivo clínico</li>
+            </ul>
+          </article>
+
+        </div><!-- /project-detail-grid -->
+
+        <div class="project-footer-links">
+          <a
+            href="https://github.com/bapdaniel/solplus-android/blob/main/docs/ARCHITECTURE.md"
+            class="text-link"
+            target="_blank" rel="noopener noreferrer"
+          >Arquitetura</a>
+          <span aria-hidden="true">&middot;</span>
+          <a
+            href="https://github.com/bapdaniel/solplus-android/blob/main/docs/SECURITY.md"
+            class="text-link"
+            target="_blank" rel="noopener noreferrer"
+          >Segurança e privacidade</a>
+          <span aria-hidden="true">&middot;</span>
+          <a
+            href="https://github.com/bapdaniel/solplus-android/blob/main/CHANGELOG.md"
+            class="text-link"
+            target="_blank" rel="noopener noreferrer"
+          >Changelog</a>
+          <span aria-hidden="true">&middot;</span>
+          <a
+            href="https://github.com/bapdaniel/solplus-android/blob/main/docs/ROADMAP.md"
+            class="text-link"
+            target="_blank" rel="noopener noreferrer"
+          >Roadmap</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ——————————————————— LABORATÓRIO ——————————————————— -->
+    <section id="laboratorio" class="section" aria-labelledby="lab-heading">
+      <div class="container">
+        <h2 id="lab-heading">Laboratório de aprendizagem</h2>
+        <p class="section-sub">
+          Projetos desenvolvidos para praticar fundamentos de programação,
+          banco de dados e desenvolvimento web. Cada um com testes automatizados.
+        </p>
+
+        <div class="lab-grid">
+
+          <!-- Controle de Gastos -->
+          <article class="lab-card" aria-labelledby="gastos-heading">
+            <div class="lab-card-header">
+              <h3 id="gastos-heading">Controle de Gastos</h3>
+              <div class="lab-links">
+                <a
+                  href="https://github.com/bapdaniel/controle-gastos-python"
+                  class="btn btn-sm btn-outline"
+                  target="_blank" rel="noopener noreferrer"
+                >Código</a>
+              </div>
+            </div>
+            <p>
+              Aplicação de terminal para registrar receitas e despesas,
+              listar lançamentos, analisar despesas por categoria
+              e exportar relatórios em CSV. Dados salvos em JSON.
+            </p>
+            <div class="lab-tags">
+              <ul class="tags-list" role="list">
+                <li class="tag">Python</li>
+                <li class="tag">JSON</li>
+                <li class="tag">CSV</li>
+                <li class="tag">unittest</li>
+                <li class="tag">GitHub Actions</li>
+              </ul>
+            </div>
+            <div class="lab-learning">
+              <h4>O que pratiquei</h4>
+              <ul class="detail-list">
+                <li>Lógica de programação e funções</li>
+                <li>Leitura e gravação de arquivos JSON</li>
+                <li>Validação de dados em terminal</li>
+                <li>Testes automatizados com <code>unittest</code></li>
+              </ul>
+            </div>
+            <p class="lab-status">Projeto educacional · Python</p>
+          </article>
+
+          <!-- Catálogo de Livros -->
+          <article class="lab-card" aria-labelledby="catalogo-heading">
+            <div class="lab-card-header">
+              <h3 id="catalogo-heading">Catálogo de Livros</h3>
+              <div class="lab-links">
+                <a
+                  href="https://github.com/bapdaniel/catalogo-livros-sqlite"
+                  class="btn btn-sm btn-outline"
+                  target="_blank" rel="noopener noreferrer"
+                >Código</a>
+              </div>
+            </div>
+            <p>
+              Aplicação de terminal para cadastrar, listar, buscar, editar
+              e excluir livros em um banco SQLite.
+              Banco criado automaticamente na primeira execução.
+            </p>
+            <div class="lab-tags">
+              <ul class="tags-list" role="list">
+                <li class="tag">Python</li>
+                <li class="tag">SQLite</li>
+                <li class="tag">SQL parametrizado</li>
+                <li class="tag">unittest</li>
+                <li class="tag">GitHub Actions</li>
+              </ul>
+            </div>
+            <div class="lab-learning">
+              <h4>O que pratiquei</h4>
+              <ul class="detail-list">
+                <li>Fundamentos de banco de dados relacional</li>
+                <li>CRUD com comandos SQL</li>
+                <li>Integração Python + SQLite</li>
+                <li>Consultas parametrizadas (prevenção de SQL injection)</li>
+              </ul>
+            </div>
+            <p class="lab-status">Projeto educacional · Python + SQLite</p>
+          </article>
+
+          <!-- Foco nos Estudos -->
+          <article class="lab-card" aria-labelledby="foco-heading">
+            <div class="lab-card-header">
+              <h3 id="foco-heading">Foco nos Estudos</h3>
+              <div class="lab-links">
+                <a
+                  href="https://bapdaniel.github.io/foco-estudos-web/"
+                  class="btn btn-sm"
+                  target="_blank" rel="noopener noreferrer"
+                >Demo ao vivo</a>
+                <a
+                  href="https://github.com/bapdaniel/foco-estudos-web"
+                  class="btn btn-sm btn-outline"
+                  target="_blank" rel="noopener noreferrer"
+                >Código</a>
+              </div>
+            </div>
+            <p>
+              Página web para organizar tarefas de estudo e acompanhar
+              o progresso. Tarefas salvas no próprio navegador
+              com <code>localStorage</code>.
+            </p>
+            <div class="lab-tags">
+              <ul class="tags-list" role="list">
+                <li class="tag">HTML semântico</li>
+                <li class="tag">CSS responsivo</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">localStorage</li>
+                <li class="tag">Node.js test runner</li>
+                <li class="tag">GitHub Actions</li>
+              </ul>
+            </div>
+            <div class="lab-learning">
+              <h4>O que pratiquei</h4>
+              <ul class="detail-list">
+                <li>HTML semântico e CSS responsivo</li>
+                <li>Manipulação do DOM e eventos</li>
+                <li>JavaScript modular e armazenamento local</li>
+                <li>Testes de lógica com test runner nativo do Node.js</li>
+              </ul>
+            </div>
+            <p class="lab-status">
+              Demo ativa ·
+              <a
+                href="https://bapdaniel.github.io/foco-estudos-web/"
+                target="_blank" rel="noopener noreferrer"
+                class="text-link"
+              >bapdaniel.github.io/foco-estudos-web</a>
+            </p>
+          </article>
+
+        </div><!-- /lab-grid -->
+      </div>
+    </section>
+
+    <!-- ——————————————————— PRÓXIMOS PROJETOS ——————————————————— -->
+    <section id="proximos" class="section section-alt" aria-labelledby="proximos-heading">
+      <div class="container">
+        <h2 id="proximos-heading">Próximos estudos</h2>
+        <p class="section-sub">
+          Projetos planejados para os próximos ciclos de aprendizagem.
+          Ainda sem código publicado.
+        </p>
+
+        <div class="next-grid">
+
+          <article class="next-card" aria-labelledby="monitor-heading">
+            <span class="next-status" aria-label="Status: em planejamento">Em planejamento</span>
+            <h3 id="monitor-heading">Monitor de preços com API e Telegram</h3>
+            <p>
+              Script Python que consulta uma API de preços e envia
+              alertas via bot do Telegram quando o valor cai abaixo
+              de um limite definido.
+            </p>
+            <ul class="tags-list" role="list">
+              <li class="tag">Python</li>
+              <li class="tag">API REST</li>
+              <li class="tag">Telegram Bot API</li>
+            </ul>
+          </article>
+
+          <article class="next-card" aria-labelledby="loja-heading">
+            <span class="next-status" aria-label="Status: em planejamento">Em planejamento</span>
+            <h3 id="loja-heading">Loja com pagamento e controle de estoque</h3>
+            <p>
+              Aplicação web com catálogo de produtos, carrinho,
+              integração com API de pagamento e controle de estoque
+              em banco de dados.
+            </p>
+            <ul class="tags-list" role="list">
+              <li class="tag">Web</li>
+              <li class="tag">Banco de dados</li>
+              <li class="tag">API de pagamento</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ——————————————————— SOBRE ——————————————————— -->
+    <section id="sobre" class="section" aria-labelledby="sobre-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 id="sobre-heading">Sobre mim</h2>
+            <p>
+              Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas
+              na Universidade Cruzeiro do Sul, com formação prevista para outubro de 2028.
+              Busco minha primeira oportunidade de estágio em tecnologia.
+            </p>
+            <p>
+              Tenho interesse em desenvolvimento, automação e IA aplicada.
+              Uso inteligência artificial como apoio ao raciocínio e à execução —
+              formulando solicitações com contexto, revisando o código gerado,
+              criando casos de teste e mantendo a decisão final sob minha responsabilidade.
+            </p>
+            <p>
+              Valorizo organização, aprendizado contínuo, comunicação clara
+              e responsabilidade com o resultado entregue.
+              Também participei como voluntário em ação beneficente do Teleton.
+            </p>
+          </div>
+
+          <div class="about-details">
+            <dl class="about-dl">
+              <dt>Curso</dt>
+              <dd>Tecnólogo em ADS</dd>
+
+              <dt>Instituição</dt>
+              <dd>Universidade Cruzeiro do Sul</dd>
+
+              <dt>Previsão de formação</dt>
+              <dd>Outubro de 2028</dd>
+
+              <dt>Localização</dt>
+              <dd>Palmas, Tocantins, Brasil</dd>
+
+              <dt>Inglês</dt>
+              <dd>Intermediário — foco em leitura técnica</dd>
+
+              <dt>Busca</dt>
+              <dd>Primeira oportunidade de estágio em TI</dd>
+            </dl>
+
+            <div class="about-tech">
+              <h3>Em prática atualmente</h3>
+              <ul class="tags-list" role="list">
+                <li class="tag">Kotlin</li>
+                <li class="tag">Android</li>
+                <li class="tag">Python</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">HTML / CSS</li>
+                <li class="tag">SQLite</li>
+                <li class="tag">Git / GitHub</li>
+                <li class="tag">Testes automatizados</li>
+                <li class="tag">GitHub Actions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ——————————————————— CONTATO ——————————————————— -->
+    <section id="contato" class="section section-alt" aria-labelledby="contato-heading">
+      <div class="container contato-inner">
+        <h2 id="contato-heading">Vamos conversar?</h2>
+        <p class="section-sub">
+          Estou aberto a oportunidades de estágio e a conversas sobre
+          desenvolvimento, automação e tecnologia.
+        </p>
+
+        <div class="contato-links">
+          <a
+            href="https://github.com/bapdaniel"
+            class="contato-card"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Perfil no GitHub — bapdaniel"
+          >
+            <svg class="contato-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            <div>
+              <strong>GitHub</strong>
+              <span>github.com/bapdaniel</span>
+            </div>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/bapdaniel/"
+            class="contato-card"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Perfil no LinkedIn — Daniel Baptista"
+          >
+            <svg class="contato-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            <div>
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/in/bapdaniel</span>
+            </div>
+          </a>
+
+          <div class="contato-card contato-card-static" aria-label="Localização: Palmas, Tocantins, Brasil">
+            <svg class="contato-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <div>
+              <strong>Localização</strong>
+              <span>Palmas, Tocantins, Brasil</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-name">Daniel Baptista</p>
+      <p class="footer-desc">
+        Systems Analysis and Development student building practical
+        projects in Android, Python, web and responsible AI-assisted engineering.
+      </p>
+      <p class="footer-copy">
+        &copy; <span id="footer-year">2026</span> Daniel Baptista &middot; Palmas, TO
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
