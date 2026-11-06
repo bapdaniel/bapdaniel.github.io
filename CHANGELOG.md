@@ -3,25 +3,22 @@
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 Versões seguem [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
-## [Não publicado]
+## [1.1.0] — Redesenho Editorial Suíço
 
-### Adicionado
-- Estrutura inicial do site: `index.html`, `styles.css`, `main.js`
-- Seção Hero com apresentação curta
-- Estudo de caso completo do SOL+ com screenshots, testes, decisões e limitações
-- Laboratório de aprendizagem (Controle de Gastos, Catálogo de Livros, Foco nos Estudos)
-- Próximos estudos (Monitor de preços, Loja com pagamento) — identificados honestamente como futuros
-- Seção Sobre com formação, interesses e uso responsável de IA
-- Seção Contato com GitHub, LinkedIn e localização
-- Favicon SVG com iniciais DB
-- SEO básico: meta description, Open Graph, Twitter Card, canonical
-- Acessibilidade: skip-to-content, ARIA labels, navegação por teclado
-- CSS responsivo (mobile, tablet, desktop)
-- `prefers-reduced-motion` respeitado
-- README, LICENSE (MIT), .gitignore
-- `docs/DECISIONS.md` com decisões de conteúdo e design
-- `docs/linkedin-update.md` com textos prontos para atualização do perfil
+### Modificado
+- Reconstrução visual completa baseada na referência canônica "Opção 1 — Editorial Suíça"
+- Tipografia: Nome "Daniel Baptista" em destaque monumental (`line-height: 0.80`, `letter-spacing: -0.075em`), metadados em `IBM Plex Mono`
+- Paleta: Fundo papel marfim suíço (`#F7F4EF`), texto de alto contraste (`#090909`), linhas sólidas (`#161616`), vermelho vivo de destaque (`#E52B20`)
+- Geometria: Aplicação rigorosa de cantos retos (`border-radius: 0`) em toda a interface
+- Seção 01 (SOL+): Apresentação em duas colunas com métricas reais (28 JVM + 10 instrumentados), botão retangular vermelho e vitrine em bloco vermelho contínuo com mockup do aplicativo
+- Laboratório de aprendizagem: Reorganizado em formato editorial tabular com linhas divisórias de 1.5px
+- Responsividade: Adaptação calibrada para 1680×945, 1440×900, 1024×768, 768×1024 e 390×844
+- Preservação total de dados factuais, limitações reais dos projetos e links funcionais
 
 ---
 
-## [1.0.0] — a publicar após validação
+## [1.0.0] — 2026-11-06
+
+### Adicionado
+- Versão inicial do portfólio profissional de Daniel Baptista
+- Estudo de caso do SOL+, Laboratório de aprendizagem, Próximos estudos, Sobre e Contato
