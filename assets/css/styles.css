@@ -1,4 +1,4 @@
-/* ==========================================================================
+﻿/* ==========================================================================
    DANIEL BAPTISTA — PORTFÓLIO EDITORIAL SUÍÇO (ITERAÇÃO FINAL & RESPONSIVA)
    Referência Canônica: Opção 1 — Editorial Suíça (1680 x 945)
    Sobreposição Pixel-Perfect de Eixos, Alturas e Tipografia
@@ -181,7 +181,7 @@ body {
   letter-spacing: -0.075em;
   font-weight: 900;
   color: var(--text);
-  display: flex;
+  padding-bottom: 8px;`r`n  display: flex;
   flex-direction: column;
 }
 
@@ -194,7 +194,7 @@ body {
   font-size: 1.125rem; /* ~18px */
   font-weight: 500;
   color: var(--text);
-  margin-top: 20px;
+  margin-top: clamp(2.75rem, 4vw, 4.5rem);
   letter-spacing: -0.015em;
   word-spacing: 0.05em;
 }
@@ -918,3 +918,4 @@ body {
     align-items: flex-start;
   }
 }
+
