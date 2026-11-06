@@ -1,0 +1,7 @@
+# Configuração do GitHub Pages
+exclude:
+  - docs
+  - CHANGELOG.md
+  - README.md
+  - LICENSE
+  - .gitignore
